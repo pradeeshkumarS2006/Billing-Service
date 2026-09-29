@@ -1,0 +1,13 @@
+{
+  "name": "flyrank-capstone-metering-billing",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test tests/"
+  },
+  "dependencies": {}
+}

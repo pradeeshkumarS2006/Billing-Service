@@ -1,0 +1,9 @@
+run: docker compose up -d && npm install && npm run migrate && npm start
+seed: npm run seed
+test: npm test
+base_url: http://localhost:3000
+endpoints:
+  - POST /generate
+  - GET /usage
+  - POST /checkout
+  - POST /webhooks/stripe
